@@ -406,3 +406,7 @@ hobby: "🎮 Problem Solving Games"
 </div>
 
 ![Futuristic Footer](https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,25:4ECDC4,50:45B7D1,75:96CEB4,100:FFEAA7&height=200&section=footer&animation=twinkling)
+
+
+![snake_gif](https://github.com/Long2Seth/Long2Seth/blob/output/github-snake-dark.svg)
+
