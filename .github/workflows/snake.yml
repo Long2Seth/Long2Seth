@@ -3,22 +3,28 @@ name: generate animation
 on:
   # run automatically every 24 hours
   schedule:
-    - cron: "0 */12 * * *" 
-  
+    - cron: "0 */12 * * *"
+
   # allows to manually run the job at any time
   workflow_dispatch:
-  
+
   # run on every push on the main branch
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    
+ 
     steps:
+      # Install system dependencies for the canvas module
+      - name: Install dependencies for canvas
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev build-essential
+
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate github-snake-dark.svg
         uses: Platane/snk/svg-only@v3
@@ -30,8 +36,7 @@ jobs:
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-          
+       
       # push the content of <build_dir> to a branch
       # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
       - name: push github-contribution-grid-snake.svg to the output branch
