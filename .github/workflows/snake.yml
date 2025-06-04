@@ -13,20 +13,50 @@ on:
     branches:
       - main
 
+# Add permissions for the workflow
+permissions:
+  contents: write # Grant write access to repository contents
+  pages: write   # Grant write access to GitHub Pages (if used)
+
 jobs:
   generate:
     runs-on: ubuntu-22.04
     timeout-minutes: 10
     
     steps:
+      # Check out the repository code
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Set up Node.js environment
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
+      # Install system dependencies for canvas
+      - name: Install canvas dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev libpng-dev build-essential
+
+      # Explicitly install canvas module
+      - name: Install canvas module
+        run: npm install canvas --build-from-source
+
+      # Debug: Verify dependencies and environment
+      - name: Debug environment
+        run: |
+          echo "Node.js version:"
+          node -v
+          echo "npm version:"
+          npm -v
+          echo "Canvas module check:"
+          npm list canvas || echo "Canvas not found"
+          echo "System dependencies:"
+          dpkg -l | grep -E 'libcairo|libjpeg|libgif|libpng' || echo "No matching dependencies found"
+
+      # Generate snake animations
       - name: Generate github-snake-dark.svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -34,9 +64,11 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
+      # Push to output branch
       - name: Push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
