@@ -1,86 +1,124 @@
-# 
-
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=300&section=header&text=LONG%20PISETH&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=30&desc=Full%20Stack%20Developer%20%7C%20Digital%20Architect&descAlignY=51&descSize=20)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=230&section=header&text=LONG%20PISETH&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=30&desc=Software%20Engineer%20%7C%20Full%20Stack%20Developer&descSize=20)
 
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=600&height=100&lines=console.log('Hello%2C+World!');Building+the+future%2C+one+commit+at+a+time;Crafting+digital+experiences+with+precision" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=650&height=120&lines=Flexible+problem+solver+with+leadership+skills;Building+innovative+solutions+with+precision;Passionate+about+sharing+knowledge+and+collaboration" alt="Typing Animation" />
 </div>
 
 ---
 
-## 🚀 About Me
+## <span style="color: #00D9FF;">🚀 About Me</span>
 
 ```typescript
-interface Developer {
+interface SoftwareEngineer {
   name: string;
   role: string;
   location: string;
+  contact: {
+    phone: string;
+    email: string;
+    address: string;
+  };
+  personal: {
+    dateOfBirth: string;
+    nationality: string;
+    gender: string;
+  };
   education: {
     university: string;
     degree: string;
     year: string;
   };
-  currentFocus: string[];
+  strengths: string[];
   philosophy: string;
 }
 
-const piseth: Developer = {
+const piseth: SoftwareEngineer = {
   name: "Long Piseth",
-  role: "Full Stack Developer & Digital Architect",
+  role: "Software Engineer & Full Stack Developer",
   location: "Phnom Penh, Cambodia 🇰🇭",
+  contact: {
+    phone: "+855 87 575 678",
+    email: "longpiseth5555@gmail.com",
+    address: "Phum Damnak, Sangkat Phnom Penh Thmie, Khan Sen Sok"
+  },
+  personal: {
+    dateOfBirth: "November 24, 2002",
+    nationality: "Cambodian",
+    gender: "Male"
+  },
   education: {
     university: "Royal University of Phnom Penh",
-    degree: "Computer Science",
+    degree: "Bachelor of Computer Science",
     year: "2021-2025"
   },
-  currentFocus: ["Microservices", "Cloud Architecture", "Modern Web Technologies"],
-  philosophy: "Code with purpose, design with passion, innovate with precision"
+  strengths: [
+    "Flexible & Adaptable", "Knowledge Sharing", "Leadership", 
+    "Teamwork", "Problem Solving", "Communication"
+  ],
+  philosophy: "Flexibility breeds innovation, collaboration creates excellence"
 };
 ```
 
----
-
-## 🎯 Tech Arsenal
+### <span style="color: #FF6B6B;">💫 **Core Values & Approach**</span>
+> ***<span style="color: #4ECDC4;">I am a flexible person who loves to share knowledge, with strong leadership and teamwork skills. I have experience managing both backend and frontend development in projects like KHOTIXS, and I excel in communication with teammates and stakeholders.</span>***
 
 <div align="center">
 
-### **Languages & Frameworks**
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+**<span style="color: #FFD93D;">🎯 Key Strengths</span>**
 
-### **Frontend Technologies**
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### **Backend & Database**
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-
-### **DevOps & Tools**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Attention to Detail](https://img.shields.io/badge/Attention_to_Detail-FF6B6B?style=for-the-badge&logo=target&logoColor=white)
+![Problem Solving](https://img.shields.io/badge/Problem_Solving-4ECDC4?style=for-the-badge&logo=lightbulb&logoColor=white)
+![Leadership](https://img.shields.io/badge/Leadership-45B7D1?style=for-the-badge&logo=users&logoColor=white)
+![Communication](https://img.shields.io/badge/Communication-96CEB4?style=for-the-badge&logo=chat&logoColor=white)
 
 </div>
 
 ---
 
-## 📊 Performance Metrics
+## <span style="color: #FF6B6B;">🎯 Tech Arsenal</span>
+
+<div align="center">
+
+### **<span style="color: #00D9FF;">Languages & Frameworks</span>**
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
+
+### **<span style="color: #4ECDC4;">Frontend Technologies</span>**
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### **<span style="color: #FF6B6B;">Backend & Database</span>**
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![ASP.NET](https://img.shields.io/badge/ASP.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+
+### **<span style="color: #FFD93D;">DevOps & Tools</span>**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![ElasticSearch](https://img.shields.io/badge/ElasticSearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+
+</div>
+
+---
+
+## <span style="color: #9B59B6;">📊 Performance Metrics</span>
 
 <div align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Long2Seth&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&ring_color=00D9FF" alt="GitHub Stats" />
@@ -97,7 +135,7 @@ const piseth: Developer = {
 
 ---
 
-## 💼 Featured Projects
+## <span style="color: #E74C3C;">💼 Featured Projects & Experience</span>
 
 <div align="center">
 
@@ -105,48 +143,63 @@ const piseth: Developer = {
 <tr>
 <td width="50%">
 
-### 🎫 KHOTIXS
-*Event Management Platform*
+### <span style="color: #00D9FF;">🎫 KHOTIXS</span>
+*<span style="color: #4ECDC4;">Event Management & Ticketing Platform</span>*
 
-**Tech Stack:** `React` `Spring Boot` `ElasticSearch`
+**<span style="color: #FFD93D;">Tech Stack:</span>** `React` `Spring Boot` `ElasticSearch`
 
-**Role:** Full Stack Development, UI/UX Design, Database Architecture
+**<span style="color: #FF6B6B;">My Role:</span>** 
+- 🎨 <span style="color: #9B59B6;">UI/UX Design</span>
+- 📊 <span style="color: #E67E22;">Project Analysis & Database Design</span>
+- 🔧 <span style="color: #1ABC9C;">Full Stack Development</span>
+- 🔍 <span style="color: #3498DB;">ElasticSearch Research & Implementation</span>
+- 📈 <span style="color: #E74C3C;">Data Collection & Analysis</span>
 
-**Status:** 🚀 Production Ready
+**<span style="color: #27AE60;">Status:</span>** 🚀 <span style="color: #2ECC71;">Production Ready</span>
 
 ---
 
-### 🛒 KHMER MART
-*E-commerce Platform*
+### <span style="color: #FF6B6B;">🛒 KHMER MART</span>
+*<span style="color: #4ECDC4;">Dynamic Online Marketplace</span>*
 
-**Tech Stack:** `React` `Laravel` `MySQL`
+**<span style="color: #FFD93D;">Tech Stack:</span>** `React` `Laravel` `MySQL`
 
-**Role:** API Development, Frontend Design, Documentation
+**<span style="color: #FF6B6B;">My Role:</span>**
+- 🎨 <span style="color: #9B59B6;">UI/UX Design</span>
+- 🔌 <span style="color: #E67E22;">API Implementation</span>  
+- 📚 <span style="color: #3498DB;">Project Documentation</span>
 
-**Status:** 🎨 Design Complete
+**<span style="color: #27AE60;">Status:</span>** 🎯 <span style="color: #F39C12;">Feature Complete</span>
 
 </td>
 <td width="50%">
 
-### 📚 ISTAD LMS
-*Learning Management System*
+### <span style="color: #4ECDC4;">📚 ISTAD LMS</span>
+*<span style="color: #9B59B6;">Learning Management System</span>*
 
-**Tech Stack:** `Next.js` `PostgreSQL` `REST API`
+**<span style="color: #FFD93D;">Tech Stack:</span>** `Next.js` `PostgreSQL` `REST API`
 
-**Role:** System Architecture, API Design, Frontend Development
+**<span style="color: #FF6B6B;">My Role:</span>**
+- 🏗️ <span style="color: #E67E22;">Project Analysis</span>
+- 🗄️ <span style="color: #3498DB;">Database Analysis & Design</span>
+- 🔌 <span style="color: #1ABC9C;">API Implementation</span>
+- 💻 <span style="color: #9B59B6;">Frontend Development</span>
 
-**Status:** 🎯 Optimized
+**<span style="color: #27AE60;">Status:</span>** ✅ <span style="color: #2ECC71;">Optimized & Deployed</span>
 
 ---
 
-### 🏥 PHP CLINIC SYSTEM
-*Healthcare Management*
+### <span style="color: #FFD93D;">📦 INVENTORY MANAGEMENT SYSTEM</span>
+*<span style="color: #E67E22;">Java Console Application</span>*
 
-**Tech Stack:** `PHP` `Laravel` `MySQL` `Bootstrap`
+**<span style="color: #FFD93D;">Tech Stack:</span>** `Java` `Console Interface` `File System`
 
-**Role:** Backend Development, Database Design
+**<span style="color: #FF6B6B;">My Role:</span>**
+- 📊 <span style="color: #E67E22;">Project Analysis</span>
+- 🗄️ <span style="color: #3498DB;">Database Analysis</span>
+- 🔧 <span style="color: #1ABC9C;">Core Development</span>
 
-**Status:** ✅ Completed
+**<span style="color: #27AE60;">Status:</span>** ✅ <span style="color: #2ECC71;">Completed</span>
 
 </td>
 </tr>
@@ -156,53 +209,86 @@ const piseth: Developer = {
 
 ---
 
-## 🎓 Education & Learning Journey
+## <span style="color: #3498DB;">🎓 Education & Professional Training</span>
 
 <div align="center">
 
-| Institution | Program | Duration | Focus |
-|-------------|---------|----------|-------|
-| **🏛️ Royal University of Phnom Penh** | Computer Science | 2021-2025 | Core Computer Science Fundamentals |
-| **💻 ISTAD Advanced Course** | Microservices Architecture | Aug 2024 - Jan 2025 | Enterprise-level Development |
-| **🚀 ISTAD Basic Course** | Full Stack Development | Feb 2024 - Aug 2024 | Modern Web Technologies |
+### <span style="color: #E67E22;">🏛️ **Academic Foundation**</span>
+| <span style="color: #9B59B6;">Institution</span> | <span style="color: #E74C3C;">Program</span> | <span style="color: #1ABC9C;">Duration</span> | <span style="color: #F39C12;">Key Focus Areas</span> |
+|-------------|---------|----------|-----------------|
+| **<span style="color: #3498DB;">Royal University of Phnom Penh</span>** | <span style="color: #E67E22;">Bachelor of Computer Science</span> | <span style="color: #27AE60;">2021-2025</span> | <span style="color: #9B59B6;">Core CS, Algorithms, System Design</span> |
+| **<span style="color: #E74C3C;">Sreng Kim High School</span>** | <span style="color: #1ABC9C;">BacII National Certificate</span> | <span style="color: #F39C12;">2017-2020</span> | <span style="color: #3498DB;">Academic Excellence</span> |
 
+### <span style="color: #FF6B6B;">💻 **Professional Development**</span>
+
+<div align="start" >
+
+#### **<span style="color: #00D9FF;">ISTAD - Institute of Science and Technology Advanced Development</span>**
+
+**<span style="color: #2ECC71;">🚀 Advanced Course</span>** *<span style="color: #E67E22;">(Aug 2024 - Jan 2025)</span>* - <span style="color: #E74C3C;">770 hours</span>
+- **<span style="color: #9B59B6;">Spring Advanced:</span>** <span style="color: #3498DB;">HATEOAS, Data JPA/MongoDB, OAuth2, Reactive Programming</span>
+- **<span style="color: #1ABC9C;">Microservices Architecture:</span>** <span style="color: #F39C12;">Decomposition Patterns, API Communication, Service Discovery</span>
+- **<span style="color: #E74C3C;">Modern Tech Stack:</span>** <span style="color: #27AE60;">WebFlux, Apache Kafka, Keycloak, Spring Boot Actuators</span>
+
+**<span style="color: #3498DB;">📚 Basic Course</span>** *<span style="color: #E67E22;">(Feb 2024 - Aug 2024)</span>* - <span style="color: #E74C3C;">900 hours</span>  
+- **<span style="color: #9B59B6;">Full Stack Development:</span>** <span style="color: #1ABC9C;">Java, React.js, Next.js, Spring Boot</span>
+- **<span style="color: #F39C12;">Database Management:</span>** <span style="color: #3498DB;">PostgreSQL, Advanced SQL, Data Modeling</span>
+- **<span style="color: #E74C3C;">DevOps Fundamentals:</span>** <span style="color: #27AE60;">Docker, NGINX, CI/CD, Linux, Cloud Services</span>
+
+</div>
 </div>
 
 ---
 
-## 🌐 Connect With Me
+## <span style="color: #2ECC71;">🌐 Connect With Me</span>
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=safari&logoColor=white)](https://longpiseth.dev)
+![Online Status](https://img.shields.io/badge/Status-🟢_Online-brightgreen?style=for-the-badge&logo=statuspage&logoColor=white)
+![Available for Work](https://img.shields.io/badge/Available_for-💼_Opportunities-blue?style=for-the-badge&logo=handshake&logoColor=white)
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:longpiseth5555@gmail.com)
+[![Phone](https://img.shields.io/badge/Phone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+85587575678)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/longpiseth)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/longpiseth)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:longpiseth.dev@gmail.com)
-[![Phone](https://img.shields.io/badge/Phone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+85595990910)
 
-**📍 Location:** Phnom Penh, Cambodia  
-**💼 Open to:** Remote Opportunities, Collaborations, Freelance Projects
+**<span style="color: #E67E22;">📍 Address:</span>** <span style="color: #3498DB;">Phum Damnak, Sangkat Phnom Penh Thmie, Khan Sen Sok, Phnom Penh, Cambodia</span>  
+**<span style="color: #2ECC71;">💼 Status:</span>** <span style="color: #E74C3C;">Open to Remote Opportunities, Collaborations, Full-time Positions</span>
 
 </div>
 
 ---
 
-## 🎯 Current Status
+## <span style="color: #F39C12;">🎯 Current Focus & Interests</span>
 
 ```javascript
 const currentStatus = {
-  🎓 studying: "Advanced Microservices Architecture",
-  🔨 building: "Next-gen E-commerce Platform",
-  🌱 learning: ["Kubernetes", "AWS Cloud Architecture", "GraphQL"],
-  🎯 goal2024: "Master Cloud-Native Development",
-  ☕ fuelledBy: "Coffee and Clean Code",
-  🎵 codingWith: "Lo-fi Hip Hop Beats"
+  🎓 completing: "Bachelor's in Computer Science (Final Year)",
+  🔨 building: "Advanced Microservices Applications",
+  🌱 learning: ["Advanced Spring Boot", "Cloud Architecture", "System Design"],
+  🎯 goal2025: "Excel in Enterprise Software Development",
+  💡 interests: ["IT Content Creation", "Technology Blogging"],
+  🎵 hobbies: ["Music", "Continuous Learning", "Tech Exploration"],
+  ☕ fuelledBy: "Curiosity and Collaborative Spirit"
 };
 ```
 
 ---
 
-## 📈 Contribution Activity
+## <span style="color: #9B59B6;">🗣️ Languages</span>
+
+<div align="center">
+
+| <span style="color: #E74C3C;">Language</span> | <span style="color: #3498DB;">Proficiency</span> | <span style="color: #27AE60;">Skills</span> |
+|----------|-------------|---------|
+| 🇰🇭 **<span style="color: #F39C12;">Khmer</span>** | <span style="color: #2ECC71;">Native</span> | <span style="color: #9B59B6;">Complete Fluency</span> |
+| 🇺🇸 **<span style="color: #E67E22;">English</span>** | <span style="color: #3498DB;">Advanced</span> | <span style="color: #1ABC9C;">Good Writing, Speaking, Listening, Reading</span> |
+
+</div>
+
+---
+
+## <span style="color: #E74C3C;">📈 Contribution Activity</span>
 
 <div align="center">
 
@@ -220,10 +306,12 @@ const currentStatus = {
 
 ---
 
-*"The best code is not just functional, but elegant, maintainable, and purposeful."*
+*<span style="color: #00D9FF;">"Flexibility in approach, excellence in execution, collaboration in spirit."</span>*
 
-**Built with ❤️ by Long Piseth**
+**<span style="color: #2ECC71;">🚀 Ready to contribute to innovative projects and grow with amazing teams!</span>**
 
-</div>
+**<span style="color: #FF6B6B;">Built with ❤️ by Long Piseth</span>**
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer)
+
+</div>
