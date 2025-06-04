@@ -15,50 +15,29 @@ on:
 
 jobs:
   generate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     timeout-minutes: 10
     
     steps:
-      # Check out the repository code
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Set up Node.js environment
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # Use a recent Node.js version
+          node-version: '20'
 
-      # Install system dependencies for canvas
-      - name: Install canvas dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libcairo2-dev libjpeg-dev libpango1.0-dev libgif-dev libpng-dev build-essential
-
-      # Debug: Verify dependencies and environment
-      - name: Debug environment
-        run: |
-          node -v
-          npm -v
-          dpkg -l | grep libcairo
-          dpkg -l | grep libjpeg
-          dpkg -l | grep libgif
-          dpkg -l | grep libpng
-
-      # generates a snake game from a github user contributions graph
-      - name: generate github-snake-dark.svg
+      - name: Generate github-snake-dark.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-      # push the content of dist to the output branch
-      - name: push github-contribution-grid-snake.svg to the output branch
+      - name: Push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
