@@ -1,18 +1,396 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long Piseth - Software Engineer</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #333333;
+            --primary-color: #00D9FF;
+            --secondary-color: #FF6B6B;
+            --accent-color: #4ECDC4;
+            --card-bg: #f8f9fa;
+            --border-color: #e9ecef;
+            --code-bg: #f6f8fa;
+        }
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=230&section=header&text=LONG%20PISETH&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=30&desc=Software%20Engineer%20%7C%20Full%20Stack%20Developer&descSize=20)
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #0D1117;
+                --text-color: #FFFFFF;
+                --primary-color: #00D9FF;
+                --secondary-color: #FF6B6B;
+                --accent-color: #4ECDC4;
+                --card-bg: #161B22;
+                --border-color: #30363D;
+                --code-bg: #161B22;
+            }
+        }
 
-</div>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=650&height=120&lines=Flexible+problem+solver+with+leadership+skills;Building+innovative+solutions+with+precision;Passionate+about+sharing+knowledge+and+collaboration" alt="Typing Animation" />
-</div>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
 
----
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-## <span style="color: #00D9FF;">🚀 About Me</span>
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 60px 0;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 15px;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
 
-```typescript
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: wave 6s ease-in-out infinite;
+        }
+
+        @keyframes wave {
+            0%, 100% { transform: rotate(0deg); }
+            50% { transform: rotate(180deg); }
+        }
+
+        .header h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header p {
+            font-size: 1.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .typing-animation {
+            background: var(--card-bg);
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid var(--border-color);
+        }
+
+        .typing-text {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.2rem;
+            color: var(--primary-color);
+            font-weight: 500;
+        }
+
+        .section {
+            margin: 50px 0;
+            padding: 30px;
+            background: var(--card-bg);
+            border-radius: 15px;
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 217, 255, 0.1);
+        }
+
+        .section h2 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .section h3 {
+            color: var(--secondary-color);
+            font-size: 1.8rem;
+            margin: 20px 0 10px 0;
+        }
+
+        .code-block {
+            background: var(--code-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 25px;
+            margin: 20px 0;
+            font-family: 'JetBrains Mono', monospace;
+            overflow-x: auto;
+            font-size: 0.9rem;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+            justify-content: center;
+        }
+
+        .tech-badge {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: white;
+            padding: 8px 16px;
+            border-radius: 25px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .tech-badge:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0, 217, 255, 0.3);
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        .project-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 15px;
+            padding: 25px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 217, 255, 0.15);
+        }
+
+        .project-title {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .project-desc {
+            color: var(--accent-color);
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .stat-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: scale(1.02);
+        }
+
+        .contact-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin: 30px 0;
+        }
+
+        .contact-link {
+            background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+            color: white;
+            padding: 12px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .contact-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 107, 107, 0.3);
+        }
+
+        .strengths-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .strength-item {
+            background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 600;
+            transition: transform 0.3s ease;
+        }
+
+        .strength-item:hover {
+            transform: scale(1.05);
+        }
+
+        .education-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: var(--card-bg);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .education-table th,
+        .education-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .education-table th {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: white;
+            font-weight: 600;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 40px 0;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 15px;
+            color: white;
+        }
+
+        .quote {
+            font-size: 1.5rem;
+            font-style: italic;
+            color: var(--primary-color);
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background: var(--card-bg);
+            border-left: 5px solid var(--primary-color);
+            border-radius: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .header p {
+                font-size: 1.2rem;
+            }
+            
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .tech-stack {
+                justify-content: center;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+        }
+
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            z-index: 1000;
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.1);
+        }
+
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Theme">🌓</button>
+
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>LONG PISETH</h1>
+            <p>Software Engineer | Full Stack Developer</p>
+        </div>
+
+        <!-- Typing Animation -->
+        <div class="typing-animation">
+            <div class="typing-text" id="typingText">
+                Flexible problem solver with leadership skills
+            </div>
+        </div>
+
+        <!-- About Me Section -->
+        <div class="section">
+            <h2>🚀 About Me</h2>
+            <div class="code-block">
+<pre>
 interface SoftwareEngineer {
   name: string;
   role: string;
@@ -61,207 +439,193 @@ const piseth: SoftwareEngineer = {
   ],
   philosophy: "Flexibility breeds innovation, collaboration creates excellence"
 };
-```
+</pre>
+            </div>
 
-### <span style="color: #FF6B6B;">💫 **Core Values & Approach**</span>
-> ***<span style="color: #4ECDC4;">I am a flexible person who loves to share knowledge, with strong leadership and teamwork skills. I have experience managing both backend and frontend development in projects like KHOTIXS, and I excel in communication with teammates and stakeholders.</span>***
+            <div class="quote">
+                💫 Core Values & Approach: I am a flexible person who loves to share knowledge, with strong leadership and teamwork skills. I have experience managing both backend and frontend development in projects like KHOTIXS, and I excel in communication with teammates and stakeholders.
+            </div>
 
-<div align="center">
+            <div class="strengths-grid">
+                <div class="strength-item pulse">🎯 Attention to Detail</div>
+                <div class="strength-item pulse">💡 Problem Solving</div>
+                <div class="strength-item pulse">👥 Leadership</div>
+                <div class="strength-item pulse">💬 Communication</div>
+            </div>
+        </div>
 
-**<span style="color: #FFD93D;">🎯 Key Strengths</span>**
+        <!-- Tech Arsenal Section -->
+        <div class="section">
+            <h2>🎯 Tech Arsenal</h2>
+            
+            <h3>Languages & Frameworks</h3>
+            <div class="tech-stack">
+                <span class="tech-badge">☕ Java</span>
+                <span class="tech-badge">📘 TypeScript</span>
+                <span class="tech-badge">🟨 JavaScript</span>
+                <span class="tech-badge">⚡ C++</span>
+                <span class="tech-badge">🔵 .NET</span>
+            </div>
 
-![Attention to Detail](https://img.shields.io/badge/Attention_to_Detail-FF6B6B?style=for-the-badge&logo=target&logoColor=white)
-![Problem Solving](https://img.shields.io/badge/Problem_Solving-4ECDC4?style=for-the-badge&logo=lightbulb&logoColor=white)
-![Leadership](https://img.shields.io/badge/Leadership-45B7D1?style=for-the-badge&logo=users&logoColor=white)
-![Communication](https://img.shields.io/badge/Communication-96CEB4?style=for-the-badge&logo=chat&logoColor=white)
+            <h3>Frontend Technologies</h3>
+            <div class="tech-stack">
+                <span class="tech-badge">⚛️ React</span>
+                <span class="tech-badge">▲ Next.js</span>
+                <span class="tech-badge">🎨 TailwindCSS</span>
+                <span class="tech-badge">🅱️ Bootstrap</span>
+                <span class="tech-badge">🏗️ HTML5</span>
+                <span class="tech-badge">🎨 CSS3</span>
+            </div>
 
-</div>
+            <h3>Backend & Database</h3>
+            <div class="tech-stack">
+                <span class="tech-badge">🍃 Spring Boot</span>
+                <span class="tech-badge">🌐 ASP.NET</span>
+                <span class="tech-badge">🐘 PostgreSQL</span>
+                <span class="tech-badge">🐬 MySQL</span>
+                <span class="tech-badge">🍃 MongoDB</span>
+                <span class="tech-badge">💾 SQL Server</span>
+            </div>
 
----
+            <h3>DevOps & Tools</h3>
+            <div class="tech-stack">
+                <span class="tech-badge">🐳 Docker</span>
+                <span class="tech-badge">☸️ Kubernetes</span>
+                <span class="tech-badge">🌐 NGINX</span>
+                <span class="tech-badge">🔀 Git</span>
+                <span class="tech-badge">🐧 Linux</span>
+                <span class="tech-badge">🔍 ElasticSearch</span>
+            </div>
+        </div>
 
-## <span style="color: #FF6B6B;">🎯 Tech Arsenal</span>
+        <!-- Projects Section -->
+        <div class="section">
+            <h2>💼 Featured Projects & Experience</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-title">🎫 KHOTIXS</div>
+                    <div class="project-desc">Event Management & Ticketing Platform</div>
+                    <p><strong>Tech Stack:</strong> React • Spring Boot • ElasticSearch</p>
+                    <p><strong>My Role:</strong></p>
+                    <ul>
+                        <li>🎨 UI/UX Design</li>
+                        <li>📊 Project Analysis & Database Design</li>
+                        <li>🔧 Full Stack Development</li>
+                        <li>🔍 ElasticSearch Research & Implementation</li>
+                        <li>📈 Data Collection & Analysis</li>
+                    </ul>
+                    <p><strong>Status:</strong> 🚀 Production Ready</p>
+                </div>
 
-<div align="center">
+                <div class="project-card">
+                    <div class="project-title">🛒 KHMER MART</div>
+                    <div class="project-desc">Dynamic Online Marketplace</div>
+                    <p><strong>Tech Stack:</strong> React • Laravel • MySQL</p>
+                    <p><strong>My Role:</strong></p>
+                    <ul>
+                        <li>🎨 UI/UX Design</li>
+                        <li>🔌 API Implementation</li>
+                        <li>📚 Project Documentation</li>
+                    </ul>
+                    <p><strong>Status:</strong> 🎯 Feature Complete</p>
+                </div>
 
-### **<span style="color: #00D9FF;">Languages & Frameworks</span>**
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
+                <div class="project-card">
+                    <div class="project-title">📚 ISTAD LMS</div>
+                    <div class="project-desc">Learning Management System</div>
+                    <p><strong>Tech Stack:</strong> Next.js • PostgreSQL • REST API</p>
+                    <p><strong>My Role:</strong></p>
+                    <ul>
+                        <li>🏗️ Project Analysis</li>
+                        <li>🗄️ Database Analysis & Design</li>
+                        <li>🔌 API Implementation</li>
+                        <li>💻 Frontend Development</li>
+                    </ul>
+                    <p><strong>Status:</strong> ✅ Optimized & Deployed</p>
+                </div>
 
-### **<span style="color: #4ECDC4;">Frontend Technologies</span>**
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+                <div class="project-card">
+                    <div class="project-title">📦 INVENTORY MANAGEMENT</div>
+                    <div class="project-desc">Java Console Application</div>
+                    <p><strong>Tech Stack:</strong> Java • Console Interface • File System</p>
+                    <p><strong>My Role:</strong></p>
+                    <ul>
+                        <li>📊 Project Analysis</li>
+                        <li>🗄️ Database Analysis</li>
+                        <li>🔧 Core Development</li>
+                    </ul>
+                    <p><strong>Status:</strong> ✅ Completed</p>
+                </div>
+            </div>
+        </div>
 
-### **<span style="color: #FF6B6B;">Backend & Database</span>**
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![ASP.NET](https://img.shields.io/badge/ASP.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+        <!-- Education Section -->
+        <div class="section">
+            <h2>🎓 Education & Professional Training</h2>
+            
+            <h3>🏛️ Academic Foundation</h3>
+            <table class="education-table">
+                <thead>
+                    <tr>
+                        <th>Institution</th>
+                        <th>Program</th>
+                        <th>Duration</th>
+                        <th>Key Focus Areas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Royal University of Phnom Penh</td>
+                        <td>Bachelor of Computer Science</td>
+                        <td>2021-2025</td>
+                        <td>Core CS, Algorithms, System Design</td>
+                    </tr>
+                    <tr>
+                        <td>Sreng Kim High School</td>
+                        <td>BacII National Certificate</td>
+                        <td>2017-2020</td>
+                        <td>Academic Excellence</td>
+                    </tr>
+                </tbody>
+            </table>
 
-### **<span style="color: #FFD93D;">DevOps & Tools</span>**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![ElasticSearch](https://img.shields.io/badge/ElasticSearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+            <h3>💻 Professional Development</h3>
+            <h4>ISTAD - Institute of Science and Technology Advanced Development</h4>
+            <p><strong>🚀 Advanced Course</strong> (Aug 2024 - Jan 2025) - 770 hours</p>
+            <ul>
+                <li><strong>Spring Advanced:</strong> HATEOAS, Data JPA/MongoDB, OAuth2, Reactive Programming</li>
+                <li><strong>Microservices Architecture:</strong> Decomposition Patterns, API Communication, Service Discovery</li>
+                <li><strong>Modern Tech Stack:</strong> WebFlux, Apache Kafka, Keycloak, Spring Boot Actuators</li>
+            </ul>
 
-</div>
+            <p><strong>📚 Basic Course</strong> (Feb 2024 - Aug 2024) - 900 hours</p>
+            <ul>
+                <li><strong>Full Stack Development:</strong> Java, React.js, Next.js, Spring Boot</li>
+                <li><strong>Database Management:</strong> PostgreSQL, Advanced SQL, Data Modeling</li>
+                <li><strong>DevOps Fundamentals:</strong> Docker, NGINX, CI/CD, Linux, Cloud Services</li>
+            </ul>
+        </div>
 
----
+        <!-- Contact Section -->
+        <div class="section">
+            <h2>🌐 Connect With Me</h2>
+            <div class="contact-links">
+                <a href="mailto:longpiseth5555@gmail.com" class="contact-link">📧 Email</a>
+                <a href="tel:+85587575678" class="contact-link">📱 Phone</a>
+                <a href="https://linkedin.com/in/longpiseth" class="contact-link">💼 LinkedIn</a>
+                <a href="https://t.me/longpiseth" class="contact-link">💬 Telegram</a>
+            </div>
+            <p style="text-align: center; margin-top: 20px;">
+                <strong>📍 Address:</strong> Phum Damnak, Sangkat Phnom Penh Thmie, Khan Sen Sok, Phnom Penh, Cambodia<br>
+                <strong>💼 Status:</strong> Open to Remote Opportunities, Collaborations, Full-time Positions
+            </p>
+        </div>
 
-## <span style="color: #9B59B6;">📊 Performance Metrics</span>
-
-<div align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Long2Seth&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&ring_color=00D9FF" alt="GitHub Stats" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Long2Seth&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Long2Seth&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Long2Seth&custom_title=Contribution%20Activity&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area_color=00D9FF&title_color=FFFFFF&area=true&hide_border=true" alt="Activity Graph" />
-</div>
-
----
-
-## <span style="color: #E74C3C;">💼 Featured Projects & Experience</span>
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-### <span style="color: #00D9FF;">🎫 KHOTIXS</span>
-*<span style="color: #4ECDC4;">Event Management & Ticketing Platform</span>*
-
-**<span style="color: #FFD93D;">Tech Stack:</span>** `React` `Spring Boot` `ElasticSearch`
-
-**<span style="color: #FF6B6B;">My Role:</span>** 
-- 🎨 <span style="color: #9B59B6;">UI/UX Design</span>
-- 📊 <span style="color: #E67E22;">Project Analysis & Database Design</span>
-- 🔧 <span style="color: #1ABC9C;">Full Stack Development</span>
-- 🔍 <span style="color: #3498DB;">ElasticSearch Research & Implementation</span>
-- 📈 <span style="color: #E74C3C;">Data Collection & Analysis</span>
-
-**<span style="color: #27AE60;">Status:</span>** 🚀 <span style="color: #2ECC71;">Production Ready</span>
-
----
-
-### <span style="color: #FF6B6B;">🛒 KHMER MART</span>
-*<span style="color: #4ECDC4;">Dynamic Online Marketplace</span>*
-
-**<span style="color: #FFD93D;">Tech Stack:</span>** `React` `Laravel` `MySQL`
-
-**<span style="color: #FF6B6B;">My Role:</span>**
-- 🎨 <span style="color: #9B59B6;">UI/UX Design</span>
-- 🔌 <span style="color: #E67E22;">API Implementation</span>  
-- 📚 <span style="color: #3498DB;">Project Documentation</span>
-
-**<span style="color: #27AE60;">Status:</span>** 🎯 <span style="color: #F39C12;">Feature Complete</span>
-
-</td>
-<td width="50%">
-
-### <span style="color: #4ECDC4;">📚 ISTAD LMS</span>
-*<span style="color: #9B59B6;">Learning Management System</span>*
-
-**<span style="color: #FFD93D;">Tech Stack:</span>** `Next.js` `PostgreSQL` `REST API`
-
-**<span style="color: #FF6B6B;">My Role:</span>**
-- 🏗️ <span style="color: #E67E22;">Project Analysis</span>
-- 🗄️ <span style="color: #3498DB;">Database Analysis & Design</span>
-- 🔌 <span style="color: #1ABC9C;">API Implementation</span>
-- 💻 <span style="color: #9B59B6;">Frontend Development</span>
-
-**<span style="color: #27AE60;">Status:</span>** ✅ <span style="color: #2ECC71;">Optimized & Deployed</span>
-
----
-
-### <span style="color: #FFD93D;">📦 INVENTORY MANAGEMENT SYSTEM</span>
-*<span style="color: #E67E22;">Java Console Application</span>*
-
-**<span style="color: #FFD93D;">Tech Stack:</span>** `Java` `Console Interface` `File System`
-
-**<span style="color: #FF6B6B;">My Role:</span>**
-- 📊 <span style="color: #E67E22;">Project Analysis</span>
-- 🗄️ <span style="color: #3498DB;">Database Analysis</span>
-- 🔧 <span style="color: #1ABC9C;">Core Development</span>
-
-**<span style="color: #27AE60;">Status:</span>** ✅ <span style="color: #2ECC71;">Completed</span>
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## <span style="color: #3498DB;">🎓 Education & Professional Training</span>
-
-<div align="center">
-
-### <span style="color: #E67E22;">🏛️ **Academic Foundation**</span>
-| <span style="color: #9B59B6;">Institution</span> | <span style="color: #E74C3C;">Program</span> | <span style="color: #1ABC9C;">Duration</span> | <span style="color: #F39C12;">Key Focus Areas</span> |
-|-------------|---------|----------|-----------------|
-| **<span style="color: #3498DB;">Royal University of Phnom Penh</span>** | <span style="color: #E67E22;">Bachelor of Computer Science</span> | <span style="color: #27AE60;">2021-2025</span> | <span style="color: #9B59B6;">Core CS, Algorithms, System Design</span> |
-| **<span style="color: #E74C3C;">Sreng Kim High School</span>** | <span style="color: #1ABC9C;">BacII National Certificate</span> | <span style="color: #F39C12;">2017-2020</span> | <span style="color: #3498DB;">Academic Excellence</span> |
-
-### <span style="color: #FF6B6B;">💻 **Professional Development**</span>
-
-<div align="start" >
-
-#### **<span style="color: #00D9FF;">ISTAD - Institute of Science and Technology Advanced Development</span>**
-
-**<span style="color: #2ECC71;">🚀 Advanced Course</span>** *<span style="color: #E67E22;">(Aug 2024 - Jan 2025)</span>* - <span style="color: #E74C3C;">770 hours</span>
-- **<span style="color: #9B59B6;">Spring Advanced:</span>** <span style="color: #3498DB;">HATEOAS, Data JPA/MongoDB, OAuth2, Reactive Programming</span>
-- **<span style="color: #1ABC9C;">Microservices Architecture:</span>** <span style="color: #F39C12;">Decomposition Patterns, API Communication, Service Discovery</span>
-- **<span style="color: #E74C3C;">Modern Tech Stack:</span>** <span style="color: #27AE60;">WebFlux, Apache Kafka, Keycloak, Spring Boot Actuators</span>
-
-**<span style="color: #3498DB;">📚 Basic Course</span>** *<span style="color: #E67E22;">(Feb 2024 - Aug 2024)</span>* - <span style="color: #E74C3C;">900 hours</span>  
-- **<span style="color: #9B59B6;">Full Stack Development:</span>** <span style="color: #1ABC9C;">Java, React.js, Next.js, Spring Boot</span>
-- **<span style="color: #F39C12;">Database Management:</span>** <span style="color: #3498DB;">PostgreSQL, Advanced SQL, Data Modeling</span>
-- **<span style="color: #E74C3C;">DevOps Fundamentals:</span>** <span style="color: #27AE60;">Docker, NGINX, CI/CD, Linux, Cloud Services</span>
-
-</div>
-</div>
-
----
-
-## <span style="color: #2ECC71;">🌐 Connect With Me</span>
-
-<div align="center">
-
-![Online Status](https://img.shields.io/badge/Status-🟢_Online-brightgreen?style=for-the-badge&logo=statuspage&logoColor=white)
-![Available for Work](https://img.shields.io/badge/Available_for-💼_Opportunities-blue?style=for-the-badge&logo=handshake&logoColor=white)
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:longpiseth5555@gmail.com)
-[![Phone](https://img.shields.io/badge/Phone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+85587575678)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/longpiseth)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/longpiseth)
-
-**<span style="color: #E67E22;">📍 Address:</span>** <span style="color: #3498DB;">Phum Damnak, Sangkat Phnom Penh Thmie, Khan Sen Sok, Phnom Penh, Cambodia</span>  
-**<span style="color: #2ECC71;">💼 Status:</span>** <span style="color: #E74C3C;">Open to Remote Opportunities, Collaborations, Full-time Positions</span>
-
-</div>
-
----
-
-## <span style="color: #F39C12;">🎯 Current Focus & Interests</span>
-
-```javascript
+        <!-- Current Focus Section -->
+        <div class="section">
+            <h2>🎯 Current Focus & Interests</h2>
+            <div class="code-block">
+<pre>
 const currentStatus = {
   🎓 completing: "Bachelor's in Computer Science (Final Year)",
   🔨 building: "Advanced Microservices Applications",
@@ -271,47 +635,120 @@ const currentStatus = {
   🎵 hobbies: ["Music", "Continuous Learning", "Tech Exploration"],
   ☕ fuelledBy: "Curiosity and Collaborative Spirit"
 };
-```
+</pre>
+            </div>
+        </div>
 
----
+        <!-- Languages Section -->
+        <div class="section">
+            <h2>🗣️ Languages</h2>
+            <table class="education-table">
+                <thead>
+                    <tr>
+                        <th>Language</th>
+                        <th>Proficiency</th>
+                        <th>Skills</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>🇰🇭 Khmer</td>
+                        <td>Native</td>
+                        <td>Complete Fluency</td>
+                    </tr>
+                    <tr>
+                        <td>🇺🇸 English</td>
+                        <td>Advanced</td>
+                        <td>Good Writing, Speaking, Listening, Reading</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-## <span style="color: #9B59B6;">🗣️ Languages</span>
+        <!-- Footer -->
+        <div class="footer">
+            <div class="quote" style="background: transparent; border: none; color: white;">
+                "Flexibility in approach, excellence in execution, collaboration in spirit."
+            </div>
+            <p style="font-size: 1.2rem; margin: 20px 0;">🚀 Ready to contribute to innovative projects and grow with amazing teams!</p>
+            <p><strong>Built with ❤️ by Long Piseth</strong></p>
+        </div>
+    </div>
 
-<div align="center">
+    <script>
+        // Typing animation
+        const texts = [
+            "Flexible problem solver with leadership skills",
+            "Building innovative solutions with precision",
+            "Passionate about sharing knowledge and collaboration"
+        ];
+        let textIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingElement = document.getElementById('typingText');
 
-| <span style="color: #E74C3C;">Language</span> | <span style="color: #3498DB;">Proficiency</span> | <span style="color: #27AE60;">Skills</span> |
-|----------|-------------|---------|
-| 🇰🇭 **<span style="color: #F39C12;">Khmer</span>** | <span style="color: #2ECC71;">Native</span> | <span style="color: #9B59B6;">Complete Fluency</span> |
-| 🇺🇸 **<span style="color: #E67E22;">English</span>** | <span style="color: #3498DB;">Advanced</span> | <span style="color: #1ABC9C;">Good Writing, Speaking, Listening, Reading</span> |
+        function typeText() {
+            const currentText = texts[textIndex];
+            
+            if (isDeleting) {
+                typingElement.textContent = currentText.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingElement.textContent = currentText.substring(0, charIndex + 1);
+                charIndex++;
+            }
 
-</div>
+            if (!isDeleting && charIndex === currentText.length) {
+                setTimeout(() => isDeleting = true, 2000);
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                textIndex = (textIndex + 1) % texts.length;
+            }
 
----
+            const speed = isDeleting ? 50 : 100;
+            setTimeout(typeText, speed);
+        }
 
-## <span style="color: #E74C3C;">📈 Contribution Activity</span>
+        // Start typing animation
+        typeText();
 
-<div align="center">
+        // Theme toggle function (for manual override)
+        function toggleTheme() {
+            document.body.style.filter = document.body.style.filter === 'invert(1) hue-rotate(180deg)' ? '' : 'invert(1) hue-rotate(180deg)';
+        }
 
-![GitHub Snake Animation](https://github.com/Long2Seth/Long2Seth/blob/output/github-snake-dark.svg)
+        // Add smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
 
-</div>
+        // Add intersection observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
 
----
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
 
-<div align="center">
-
-![Metrics](https://komarev.com/ghpvc/?username=Long2Seth&style=for-the-badge&color=00D9FF&labelColor=0D1117)
-[![Followers](https://img.shields.io/github/followers/Long2Seth?style=for-the-badge&color=00D9FF&labelColor=0D1117)](https://github.com/Long2Seth?tab=followers)
-[![Stars](https://img.shields.io/github/stars/Long2Seth?style=for-the-badge&color=00D9FF&labelColor=0D1117)](https://github.com/Long2Seth?tab=repositories)
-
----
-
-*<span style="color: #00D9FF;">"Flexibility in approach, excellence in execution, collaboration in spirit."</span>*
-
-**<span style="color: #2ECC71;">🚀 Ready to contribute to innovative projects and grow with amazing teams!</span>**
-
-**<span style="color: #FF6B6B;">Built with ❤️ by Long Piseth</span>**
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer)
-
-</div>
+        // Observe all sections
+        document.querySelectorAll('.section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(30px)';
+            section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
