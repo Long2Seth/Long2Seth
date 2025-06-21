@@ -1,11 +1,13 @@
-  <div align="center">
-  
-  ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=230&section=header&text=LONG%20PISETH&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=30&desc=Software%20Engineer%20%7C%20Full%20Stack%20Developer&descSize=20)
-  
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000" alt="Divider"/>
+</div>
+
+<div align="center">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=32&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&multiline=true&width=800&height=120&lines=Hello+,+I+am+Long+Piseth;" alt="Typing Animation" />
   </div>
   
   <div align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=800&height=120&lines=Flexible+problem+solver+with+leadership+skills;Building+innovative+solutions;Passionate+about+sharing+knowledge+and+collaboration" alt="Typing Animation" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&multiline=true&width=800&height=120&lines=Flexible+problem+solver+with+leadership+skills;Building+innovative+solutions;Passionate+about+sharing+knowledge+and+collaboration" alt="Typing Animation" />
   </div>
   
 <div align="center">
@@ -321,9 +323,6 @@ I believe in the power of **adaptability** and **continuous learning**. As a dev
   
   </div>
   
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000" alt="Divider"/>
-</div>
   
   <div align="center">
   
@@ -341,6 +340,5 @@ I believe in the power of **adaptability** and **continuous learning**. As a dev
   
   **<span style="color: #FF6B6B;">Built with ❤️ by Long Piseth</span>**
   
-  ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer)
   
   </div>
