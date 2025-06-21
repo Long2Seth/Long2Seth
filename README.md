@@ -122,7 +122,9 @@ const piseth: SoftwareEngineer = {
 
 <div align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Long2Seth&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&ring_color=00D9FF" alt="GitHub Stats" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Long2Seth&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak" />
+</div>
+<div>
+    <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Long2Seth&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak" />
 </div>
 
 <div align="center">
