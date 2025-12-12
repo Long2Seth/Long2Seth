@@ -93,139 +93,448 @@ I believe in the power of **adaptability** and **continuous learning**. As a dev
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000" alt="Divider"/>
 </div>
   
-  ## <span style="color: #FF6B6B;">🎯 Goal </span>
-  
-  <div align="center">
-  
-  ### **<span style="color: #00D9FF;">Languages & Frameworks</span>**
-  ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-  ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-  ![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-  
-  ### **<span style="color: #4ECDC4;">Frontend Technologies</span>**
-  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-  ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-  ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-  ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-  
-  ### **<span style="color: #FF6B6B;">Backend & Database</span>**
-  ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-  ![ASP.NET](https://img.shields.io/badge/ASP.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-  ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-  ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-  ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-  
-  ### **<span style="color: #FFD93D;">DevOps & Tools</span>**
-  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-  ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-  ![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
-  ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-  ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-  ![ElasticSearch](https://img.shields.io/badge/ElasticSearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
-  
-  </div>
-  
+## <span style="color: #FF6B6B;">🎯 Tech Stack & Expertise</span>
+
+<div align="center">
+
+### **<span style="color: #00D9FF;">💻 Programming Languages</span>**
+
+<table>
+<tr>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java" />
+<br>Java
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=typescript" width="48" height="48" alt="TypeScript" />
+<br>TypeScript
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=javascript" width="48" height="48" alt="JavaScript" />
+<br>JavaScript
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=cpp" width="48" height="48" alt="C++" />
+<br>C++
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=dotnet" width="48" height="48" alt=".NET" />
+<br>.NET
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
+<br>Python
+</td>
+</tr>
+</table>
+
+### **<span style="color: #4ECDC4;">🎨 Frontend Development</span>**
+
+<table>
+<tr>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
+<br>React
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js" />
+<br>Next.js
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind" />
+<br>Tailwind
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=bootstrap" width="48" height="48" alt="Bootstrap" />
+<br>Bootstrap
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5" />
+<br>HTML5
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS3" />
+<br>CSS3
+</td>
+</tr>
+</table>
+
+### **<span style="color: #FF6B6B;">⚙️ Backend & Frameworks</span>**
+
+<table>
+<tr>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=spring" width="48" height="48" alt="Spring Boot" />
+<br>Spring Boot
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=dotnet" width="48" height="48" alt="ASP.NET" />
+<br>ASP.NET
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=laravel" width="48" height="48" alt="Laravel" />
+<br>Laravel
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
+<br>Node.js
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express" />
+<br>Express
+</td>
+</tr>
+</table>
+
+### **<span style="color: #FFD93D;">🗄️ Databases & Storage</span>**
+
+<table>
+<tr>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=postgresql" width="48" height="48" alt="PostgreSQL" />
+<br>PostgreSQL
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" />
+<br>MySQL
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" />
+<br>MongoDB
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis" />
+<br>Redis
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=elasticsearch" width="48" height="48" alt="ElasticSearch" />
+<br>ElasticSearch
+</td>
+</tr>
+</table>
+
+### **<span style="color: #9B59B6;">🚀 DevOps & Cloud Tools</span>**
+
+<table>
+<tr>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
+<br>Docker
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=kubernetes" width="48" height="48" alt="Kubernetes" />
+<br>Kubernetes
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=nginx" width="48" height="48" alt="NGINX" />
+<br>NGINX
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
+<br>Git
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" />
+<br>GitHub
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
+<br>Linux
+</td>
+</tr>
+</table>
+
+### **<span style="color: #E67E22;">🛠️ Tools & Others</span>**
+
+<table>
+<tr>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" />
+<br>VS Code
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=idea" width="48" height="48" alt="IntelliJ" />
+<br>IntelliJ
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" />
+<br>Postman
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=figma" width="48" height="48" alt="Figma" />
+<br>Figma
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=gradle" width="48" height="48" alt="Gradle" />
+<br>Gradle
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=maven" width="48" height="48" alt="Maven" />
+<br>Maven
+</td>
+</tr>
+</table>
+
+</div>
+
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000" alt="Divider"/>
 </div>
+
+## <span style="color: #9B59B6;">📊 GitHub Analytics</span>
+
+<div align="center">
   
-  ## <span style="color: #9B59B6;">📊 Performance Metrics</span>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Long2Seth&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=C9D1D9&ring_color=00D9FF&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Long2Seth&theme=radical&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF&sideNums=C9D1D9&currStreakNum=00D9FF&sideLabels=C9D1D9" alt="GitHub Streak" />
+
+</div>
+
+<div align="center">
   
-  <div align="center">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Long2Seth&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&ring_color=00D9FF" alt="GitHub Stats" />
-  </div>
-  <div align="center">
-      <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Long2Seth&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak" />
-  </div>
-  
-  <div align="center">
-    <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Long2Seth&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF" alt="Top Languages" />
-  </div>
-  
-  <div align="center">
-    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Long2Seth&custom_title=Contribution%20Activity&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area_color=00D9FF&title_color=FFFFFF&area=true&hide_border=true" alt="Activity Graph" />
-  </div>
-  
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Long2Seth&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=C9D1D9&langs_count=8&hide=html,css" alt="Top Languages" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Long2Seth&theme=radical&utcOffset=7" alt="Productive Time" />
+
+</div>
+
+<div align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Long2Seth&custom_title=📈%20Contribution%20Timeline&bg_color=0D1117&color=00D9FF&line=FF6B6B&point=00D9FF&area_color=00D9FF&title_color=00D9FF&area=true&hide_border=true" alt="Activity Graph" />
+</div>
+
+<div align="center">
+
+### **<span style="color: #4ECDC4;">🏆 GitHub Achievements</span>**
+
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Long2Seth&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+
+</div>
+
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000" alt="Divider"/>
 </div>
   
   ## <span style="color: #E74C3C;">💼 Featured Projects & Experience</span>
-  
-  <div align="center">
-  
-  <table>
-  <tr>
-  <td width="50%">
-  
-  ### <span style="color: #00D9FF;">🎫 KHOTIXS</span>
-  *<span style="color: #4ECDC4;">Event Management & Ticketing Platform</span>*
-  
-  **<span style="color: #FFD93D;">Tech Stack:</span>** `React` `Spring Boot` `ElasticSearch`
-  
-  **<span style="color: #FF6B6B;">My Role:</span>** 
-  - 🎨 <span style="color: #9B59B6;">UI/UX Design</span>
-  - 📊 <span style="color: #E67E22;">Project Analysis & Database Design</span>
-  - 🔧 <span style="color: #1ABC9C;">Full Stack Development</span>
-  - 🔍 <span style="color: #3498DB;">ElasticSearch Research & Implementation</span>
-  - 📈 <span style="color: #E74C3C;">Data Collection & Analysis</span>
-  
-  **<span style="color: #27AE60;">Status:</span>** 🚀 <span style="color: #2ECC71;">Production Ready</span>
-  
-  ---
-  
-  ### <span style="color: #FF6B6B;">🛒 KHMER MART</span>
-  *<span style="color: #4ECDC4;">Dynamic Online Marketplace</span>*
-  
-  **<span style="color: #FFD93D;">Tech Stack:</span>** `React` `Laravel` `MySQL`
-  
-  **<span style="color: #FF6B6B;">My Role:</span>**
-  - 🎨 <span style="color: #9B59B6;">UI/UX Design</span>
-  - 🔌 <span style="color: #E67E22;">API Implementation</span>  
-  - 📚 <span style="color: #3498DB;">Project Documentation</span>
-  
-  **<span style="color: #27AE60;">Status:</span>** 🎯 <span style="color: #F39C12;">Feature Complete</span>
-  
-  </td>
-  <td width="50%">
-  
-  ### <span style="color: #4ECDC4;">📚 ISTAD LMS</span>
-  *<span style="color: #9B59B6;">Learning Management System</span>*
-  
-  **<span style="color: #FFD93D;">Tech Stack:</span>** `Next.js` `PostgreSQL` `REST API`
-  
-  **<span style="color: #FF6B6B;">My Role:</span>**
-  - 🏗️ <span style="color: #E67E22;">Project Analysis</span>
-  - 🗄️ <span style="color: #3498DB;">Database Analysis & Design</span>
-  - 🔌 <span style="color: #1ABC9C;">API Implementation</span>
-  - 💻 <span style="color: #9B59B6;">Frontend Development</span>
-  
-  **<span style="color: #27AE60;">Status:</span>** ✅ <span style="color: #2ECC71;">Optimized & Deployed</span>
-  
-  ---
-  
-  ### <span style="color: #FFD93D;">📦 INVENTORY MANAGEMENT SYSTEM</span>
-  *<span style="color: #E67E22;">Java Console Application</span>*
-  
-  **<span style="color: #FFD93D;">Tech Stack:</span>** `Java` `Console Interface` `File System`
-  
-  **<span style="color: #FF6B6B;">My Role:</span>**
-  - 📊 <span style="color: #E67E22;">Project Analysis</span>
-  - 🗄️ <span style="color: #3498DB;">Database Analysis</span>
-  - 🔧 <span style="color: #1ABC9C;">Core Development</span>
-  
-  **<span style="color: #27AE60;">Status:</span>** ✅ <span style="color: #2ECC71;">Completed</span>
-  
-  </td>
-  </tr>
-  </table>
-  
-  </div>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100" alt="Project Icon"/>
+  <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100" alt="Web Development"/>
+  <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100" alt="Coding"/>
+  <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100" alt="Analytics"/>
+  <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="100" alt="Database"/>
+</div>
+
+<div align="center">
+
+### <span style="color: #00D9FF;">🎫 KHOTIXS - Event Management Platform</span>
+
+<table>
+<tr>
+<td width="60%">
+
+**<span style="color: #4ECDC4;">About the Project</span>**
+
+A comprehensive event management and ticketing platform that revolutionizes how events are organized and attended in Cambodia. Built with modern technologies to provide seamless user experience for both event organizers and attendees.
+
+**<span style="color: #9B59B6;">Key Features</span>**
+- 🎟️ Real-time ticket booking and management
+- 🔍 Advanced search with ElasticSearch
+- 📊 Analytics dashboard for organizers
+- 💳 Secure payment integration
+- 📱 Responsive design for all devices
+
+**<span style="color: #FF6B6B;">My Contributions</span>**
+- Led full-stack development and architectural decisions
+- Designed and implemented database schema
+- Integrated ElasticSearch for advanced search capabilities
+- Created responsive UI/UX from concept to deployment
+- Implemented data collection and analytics features
+
+</td>
+<td width="40%">
+
+**<span style="color: #FFD93D;">Tech Stack</span>**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![ElasticSearch](https://img.shields.io/badge/ElasticSearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+**<span style="color: #27AE60;">Project Status</span>**
+
+![Status](https://img.shields.io/badge/Status-🚀_Production-success?style=for-the-badge)
+![Team](https://img.shields.io/badge/Team-5_Members-blue?style=for-the-badge)
+![Role](https://img.shields.io/badge/Role-Tech_Lead-orange?style=for-the-badge)
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif" width="800" alt="Coding GIF"/>
+</div>
+
+### <span style="color: #4ECDC4;">📚 ISTAD LMS - Learning Management System</span>
+
+<table>
+<tr>
+<td width="60%">
+
+**<span style="color: #9B59B6;">About the Project</span>**
+
+An advanced Learning Management System designed for ISTAD, providing a comprehensive platform for students and instructors to manage courses, assignments, and educational content efficiently.
+
+**<span style="color: #E67E22;">Key Features</span>**
+- 📖 Course and content management
+- 👨‍🎓 Student progress tracking
+- 📝 Assignment submission and grading
+- 💬 Real-time communication tools
+- 📊 Performance analytics and reporting
+
+**<span style="color: #FF6B6B;">My Contributions</span>**
+- Conducted comprehensive project and database analysis
+- Architected scalable database solutions
+- Developed RESTful APIs for seamless integration
+- Built responsive frontend with Next.js
+- Optimized performance for better user experience
+
+</td>
+<td width="40%">
+
+**<span style="color: #FFD93D;">Tech Stack</span>**
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+**<span style="color: #27AE60;">Project Status</span>**
+
+![Status](https://img.shields.io/badge/Status-✅_Deployed-success?style=for-the-badge)
+![Team](https://img.shields.io/badge/Team-4_Members-blue?style=for-the-badge)
+![Role](https://img.shields.io/badge/Role-Full_Stack_Dev-orange?style=for-the-badge)
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212748830-4c709398-a386-4761-84d7-9e10b98fbe6e.gif" width="800" alt="Shopping GIF"/>
+</div>
+
+### <span style="color: #FF6B6B;">🛒 KHMER MART - E-Commerce Platform</span>
+
+<table>
+<tr>
+<td width="60%">
+
+**<span style="color: #4ECDC4;">About the Project</span>**
+
+A dynamic online marketplace connecting buyers and sellers across Cambodia. Features a user-friendly interface with robust backend systems for managing products, orders, and customer interactions.
+
+**<span style="color: #1ABC9C;">Key Features</span>**
+- 🛍️ Product catalog with advanced filtering
+- 🔐 Secure user authentication
+- 🛒 Shopping cart and checkout system
+- 📦 Order tracking and management
+- ⭐ Reviews and ratings system
+
+**<span style="color: #FF6B6B;">My Contributions</span>**
+- Designed intuitive UI/UX interfaces
+- Implemented RESTful API endpoints
+- Created comprehensive project documentation
+- Integrated payment gateway systems
+- Developed responsive frontend components
+
+</td>
+<td width="40%">
+
+**<span style="color: #FFD93D;">Tech Stack</span>**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+**<span style="color: #27AE60;">Project Status</span>**
+
+![Status](https://img.shields.io/badge/Status-🎯_Complete-success?style=for-the-badge)
+![Team](https://img.shields.io/badge/Team-6_Members-blue?style=for-the-badge)
+![Role](https://img.shields.io/badge/Role-Frontend_&_API-orange?style=for-the-badge)
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="800" alt="Java Development GIF"/>
+</div>
+
+### <span style="color: #FFD93D;">📦 Inventory Management System</span>
+
+<table>
+<tr>
+<td width="60%">
+
+**<span style="color: #E67E22;">About the Project</span>**
+
+A Java-based console application for efficient inventory management, enabling businesses to track stock levels, manage suppliers, and generate reports. Built with Object-Oriented Programming principles for maintainability and scalability.
+
+**<span style="color: #3498DB;">Key Features</span>**
+- 📊 Real-time inventory tracking
+- 📝 Stock management and alerts
+- 📈 Sales and purchase reporting
+- 🔍 Product search and filtering
+- 💾 File-based data persistence
+
+**<span style="color: #FF6B6B;">My Contributions</span>**
+- Led project analysis and requirement gathering
+- Designed comprehensive database structure
+- Implemented core inventory management logic
+- Developed user-friendly console interface
+- Created data validation and error handling
+
+</td>
+<td width="40%">
+
+**<span style="color: #FFD93D;">Tech Stack</span>**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![OOP](https://img.shields.io/badge/OOP-Design-blue?style=for-the-badge&logo=java&logoColor=white)
+![File System](https://img.shields.io/badge/File_System-Storage-green?style=for-the-badge&logo=files&logoColor=white)
+![Console](https://img.shields.io/badge/Console_App-CLI-red?style=for-the-badge&logo=gnometerminal&logoColor=white)
+
+**<span style="color: #27AE60;">Project Status</span>**
+
+![Status](https://img.shields.io/badge/Status-✅_Completed-success?style=for-the-badge)
+![Team](https://img.shields.io/badge/Team-3_Members-blue?style=for-the-badge)
+![Role](https://img.shields.io/badge/Role-Lead_Developer-orange?style=for-the-badge)
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212747903-e9bdf048-2dc8-41f9-b973-0e72ff07bfba.gif" width="600" alt="Working GIF"/>
+</div>
+
+<div align="center">
+
+### <span style="color: #9B59B6;">🔥 More Projects Coming Soon!</span>
+
+![GitHub](https://img.shields.io/badge/View_All_Projects-181717?style=for-the-badge&logo=github&logoColor=white)
+
+</div>
   
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000" alt="Divider"/>
